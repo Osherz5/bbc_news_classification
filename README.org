@@ -1,2 +1,8 @@
 * BBC News Classification
 Classification of BBC news articles project for DTSA 5510 Unsupervised Algorithms in Machine Learning
+
+In this project we compare two approaches for this type of classification task.
+
+The first approach is a supervised learning method that uses word2vec with mean pooling to create document embeddings, followed by KNN.
+
+The second is an unsupervised approach that uses TF-IDF, that is followed by NMF (Non-Negative Matrix Factorization).
